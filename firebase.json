@@ -1,6 +1,7 @@
 {
   "hosting": {
     "public": "public",
+    "target":"buildqr",
     "ignore": [
       "firebase.json",
       "**/.*",
