@@ -9,10 +9,16 @@
 
 body{
   display: flex;
-  justify-content: center;
   align-items: center;
   background-color:#57606f;
+  flex-direction: column;
 
+}
+.navbar{
+  color: white;
+  font-weight: 1000;
+  font-size: 30px;
+  margin-top: 20px;
 }
 
 .code{
@@ -123,7 +129,30 @@ button{
 }
 .containerWhole{
   display: flex;
-  margin-top: 50px;
+  margin-top: 20px;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+
+@media only screen and (max-width:420px) {
+  .form-single-group{
+    display: block;
+  }
+  label{
+    display: block;
+  }
+  .phoneLight{
+    margin-top: 10px;
+  }
+  
+}
+.copyright{
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
+.copyright a{
+  color: white;
+  font-weight: 700;
 }
