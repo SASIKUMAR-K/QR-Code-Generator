@@ -108,8 +108,10 @@ const App = () => {
 								value={colorDark}
 								onChange={(e) => handleColorChange('dark', e.target.value)}
 							/>
+						</div>
+						<div className='form-single-group'>
 							<div className='hashDiv'>
-								<span className='hashTag'>#</span>
+								<span className='hashTag'>Hex Value : #</span>
 								<input
 									type='text'
 									value={hexDark}
@@ -125,8 +127,10 @@ const App = () => {
 								value={colorLight}
 								onChange={(e) => handleColorChange('light', e.target.value)}
 							/>
+						</div>
+						<div className='form-single-group'>
 							<div className='hashDiv'>
-								<span className='hashTag'>#</span>
+								<span className='hashTag'>Hex Value : #</span>
 								<input
 									type='text'
 									value={hexLight}

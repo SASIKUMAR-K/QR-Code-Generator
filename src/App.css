@@ -141,3 +141,9 @@ button:hover {
 .phoneLight{
   margin-top: 20px;
 }
+.hashDiv{
+  margin-bottom: 10px;
+}
+.hashDiv input{
+ width: 100px;
+}
