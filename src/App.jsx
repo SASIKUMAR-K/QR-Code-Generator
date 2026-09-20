@@ -34,13 +34,17 @@ export default function App() {
     const svg = svgRef.current?.querySelector('svg');
     if (!svg) return;
     const svgData = new XMLSerializer().serializeToString(svg);
+    const padding = Math.round(size * 0.08);
+    const total = size + padding * 2;
     const canvas = document.createElement('canvas');
-    canvas.width = size;
-    canvas.height = size;
+    canvas.width = total;
+    canvas.height = total;
     const ctx = canvas.getContext('2d');
     const img = new Image();
     img.onload = () => {
-      ctx.drawImage(img, 0, 0, size, size);
+      ctx.fillStyle = colorLight;
+      ctx.fillRect(0, 0, total, total);
+      ctx.drawImage(img, padding, padding, size, size);
       const a = document.createElement('a');
       a.href = canvas.toDataURL('image/png');
       a.download = 'qrcode.png';
