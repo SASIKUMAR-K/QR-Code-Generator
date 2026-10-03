@@ -1,7 +1,8 @@
 {
-  "name": "qr-code-generator",
+  "name": "qraviq",
   "private": true,
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "Qraviq — a free, privacy-first QR code generator built with React and Vite.",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,7 +15,8 @@
     "lucide-react": "^1.47.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-qr-code": "^2.0.14"
+    "react-qr-code": "^2.0.14",
+    "react-router-dom": "^6.30.6"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

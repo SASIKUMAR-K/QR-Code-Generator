@@ -5,8 +5,8 @@
   "targets": {
     "overall-project-b04ff": {
       "hosting": {
-        "buildqr": [
-          "buildqr"
+        "qraviq": [
+          "qraviq"
         ]
       }
     }
