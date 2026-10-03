@@ -30,7 +30,7 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_OVERALL_PROJECT_B04FF }}
           channelId: live
           projectId: overall-project-b04ff
-          siteId: buildqr
+          siteId: qraviq
 
       - name: Create version tag
         run: |
